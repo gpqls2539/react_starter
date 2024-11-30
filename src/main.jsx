@@ -9,8 +9,8 @@ import NestingBox from "./NestingBox.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
-    <Sub />
-    <Counter />
+    {/* <Sub />
+    <Counter /> */}
     <NestingBox />
   </StrictMode>
 );
